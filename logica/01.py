@@ -15,6 +15,6 @@ notas = 6
 faltas = 4
 
 if(notas <= 6 and faltas <=3):
-    print("veradeiro")
+    print("verdadeiro")
 else:
     print("falso")
