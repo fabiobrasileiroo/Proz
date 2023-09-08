@@ -6,9 +6,15 @@ if(media >= 7):
     print("A média das suas notas é", media)
 else:
     print("reprovado")"""
-a = 3,3
-print (a)
-
+"""
 feriado = False
-if !(feriado == true):
+if !(feriado == True):
     print('funcionar')
+"""
+notas = 6
+faltas = 4
+
+if(notas <= 6 and faltas <=3):
+    print("veradeiro")
+else:
+    print("falso")
