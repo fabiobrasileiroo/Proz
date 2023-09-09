@@ -38,3 +38,5 @@ Digite a quantidade de pessoas: 5
 
 Saída:
 B: Veículos com quatro rodas, que acomodam até oito pessoas e seu peso é de até 3500 kg;
+```
+[Link do codigo fonte](https://github.com/fabiobrasileiroo/Proz/blob/main/logica/ativCarro/03.py)
