@@ -58,4 +58,6 @@ elif (roda >= 4 and pesoBruto > 6000):
 else:
     print("Valores inseridos não correspondem a nenhuma categoria conhecida. Verifique as informações do veículo e tente novamente.")
 ```
-[Link do codigo fonte para executar](https://github.com/fabiobrasileiroo/Proz/blob/main/logica/ativCarro/03.py)
+[Link do codigo fonte para executar Collab](https://colab.research.google.com/drive/1ErciRQ2K0Nu1CiMVC2ZOMJOtBatYrNtm?usp=sharing)
+
+[Link do codigo fonte](https://github.com/fabiobrasileiroo/Proz/blob/main/logica/ativCarro/03.py)
