@@ -14,7 +14,7 @@ if !(feriado == True):
 notas = 6
 faltas = 4
 
-if(notas <= 6 and faltas <=3):
+if(notas <= 6 or faltas <=3):
     print("verdadeiro")
 else:
     print("falso")
