@@ -34,16 +34,16 @@ operador = input("Digite o operador (ex: soma ou +): ")
 resultado = calculadora(num1, num2, operador)
 print("Resultado:", resultado)
 ```
-`
-Digite o primeiro número: 5
-Digite o segundo número: 3
-Digite o operador (ex: soma ou +): soma
-Resultado: 8.0
-`
 
-### Explicação
+- Digite o primeiro número: 5
+- Digite o segundo número: 3
+- Digite o operador (ex: soma ou +): soma
+- Resultado: 8.0
 
-## Função Calculadora em Python
+
+## Explicação
+
+### Função Calculadora em Python
 
 A função `calculadora` recebe três argumentos:
 
