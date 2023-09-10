@@ -37,4 +37,5 @@ Este código utiliza um loop while que decrementa o número de andar de 20 até 
 Obs: Não liguem para o time.sleep(0.5); eu apenas dei um intervalo de 0.5 segundos para simular um elevador.
 
 [Link codigo Colab](https://colab.research.google.com/drive/1DjVXFsk8T6C1p4KB_fbRBNJ5nFNlnDQK?usp=sharing)
+
 [Codigo fonte](https://github.com/fabiobrasileiroo/Proz/blob/main/logica/ativHotel/01.py)
