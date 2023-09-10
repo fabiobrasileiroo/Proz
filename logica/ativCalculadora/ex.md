@@ -61,5 +61,6 @@ A função `calculadora` realiza operações matemáticas básicas com base no a
 - Se `operador` for igual a "Divisao", "divisao" ou "/", a função verifica se `num2` é igual a zero. Se for, retorna a mensagem "Não é possível dividir por zero.". Caso contrário, retorna a divisão de `
 
 [Link do codigo no Colab](https://colab.research.google.com/drive/17YEpNW257nRm6E94PpGi_r_GmCwecZvy?usp=sharing)
+
 [Codigo fonte](https://github.com/fabiobrasileiroo/Proz/blob/main/logica/ativCalculadora/01Melhorado.py)
 
