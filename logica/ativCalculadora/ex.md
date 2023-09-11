@@ -34,16 +34,16 @@ operador = input("Digite o operador (ex: soma ou +): ")
 resultado = calculadora(num1, num2, operador)
 print("Resultado:", resultado)
 ```
-`
-Digite o primeiro número: 5
-Digite o segundo número: 3
-Digite o operador (ex: soma ou +): soma
-Resultado: 8.0
-`
 
-### Explicação
+- Digite o primeiro número: 5
+- Digite o segundo número: 3
+- Digite o operador (ex: soma ou +): soma
+- Resultado: 8.0
 
-## Função Calculadora em Python
+
+## Explicação
+
+### Função Calculadora em Python
 
 A função `calculadora` recebe três argumentos:
 
@@ -59,3 +59,8 @@ A função `calculadora` realiza operações matemáticas básicas com base no a
 - Se `operador` for igual a "Subtracao", "subtracao" ou "-", a função retorna a subtração de `num1` e `num2`.
 - Se `operador` for igual a "Multiplicacao", "multiplicacao" ou "*", a função retorna a multiplicação de `num1` e `num2`.
 - Se `operador` for igual a "Divisao", "divisao" ou "/", a função verifica se `num2` é igual a zero. Se for, retorna a mensagem "Não é possível dividir por zero.". Caso contrário, retorna a divisão de `
+
+[Link do codigo no Colab](https://colab.research.google.com/drive/17YEpNW257nRm6E94PpGi_r_GmCwecZvy?usp=sharing)
+
+[Codigo fonte](https://github.com/fabiobrasileiroo/Proz/blob/main/logica/ativCalculadora/01Melhorado.py)
+
