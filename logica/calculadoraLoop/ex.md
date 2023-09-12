@@ -86,7 +86,7 @@ while True:
         print("Essa opção não existe. Tente novamente.")
         continue
 ```
-Esta parte é um pouco mais complexa, mas nada fora do comum. Tentei lidar com o erro de uma pessoa digitar uma letra (string) no lugar de números usando try e except.
+### Esta parte é um pouco mais complexa, mas nada fora do comum. Tentei lidar com o erro de uma pessoa digitar uma letra (string) no lugar de números usando try e except.
 
 No código que você forneceu, o try e except são usados para lidar com exceções (erros) que podem ocorrer durante a execução do programa. Vou explicar como eles funcionam:
 
