@@ -46,7 +46,7 @@ Depois, criei um `if __name__ == "__main__":` e chamei `main()`. Muitos devem es
 
 Na verdade, essa variável com o nome reservado `__name__` é sempre declarada no módulo, e quando digo módulo, estou me referindo ao arquivo o `módulo === arquivo` (um módulo é igual a um arquivo).
 
-### O que ela faz e pra que diabos serve isso?
+## O que ela faz e para que diabos serve isso?
 
 A condição `if __name__ == "__main__`: verifica se o script está sendo executado diretamente (em oposição a ser importado como um módulo em outro script). Se for o caso, a função main é chamada, iniciando a execução do programa.
 Então isso como se fosse a chamada centrar da minha aplicação.
