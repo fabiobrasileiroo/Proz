@@ -6,7 +6,7 @@ Caso o usuário não digite um número ou apareça um inválido no campo do ano,
 
 
 ## Passo a passo
-Criei uma função na qual incluí um loop infinito usando `while`.
+#### Criei uma função na qual incluí um loop infinito usando `while`.
 
 ```python
 def calcularIdade():
@@ -22,7 +22,7 @@ def calcularIdade():
 Dentro desse loop, coloquei meu código dentro de um bloco `try`. O código para quando uma condição if é atendida. Além disso, adicionei um bloco try para tentar tratar qualquer erro que possa ocorrer. 
 
 ##
-Se o código cair no bloco `else`, isso significa que ocorreu um erro relacionado a números que não estão no intervalo de 1922 a 2021. 
+#### Se o código cair no bloco `else`, isso significa que ocorreu um erro relacionado a números que não estão no intervalo de 1922 a 2021. 
 ```python
       else:
                 print(f"{nome}, por favor, digite um ano de nascimento entre 1922 e 2021.")
