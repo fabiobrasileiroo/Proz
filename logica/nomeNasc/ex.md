@@ -54,8 +54,8 @@ Então isso como se fosse a chamada centrar da minha aplicação.
 A principal vantagem dessa estrutura é que ela torna o código mais organizado e legível, separando a lógica principal do programa da lógica de entrada e validação. Além disso, torna mais fácil reutilizar partes do seu código em outros projetos, importando-o como um módulo, se necessário.
 
 No entanto, em programas muito simples, você pode optar por não usar a função main e colocar o código diretamente no nível superior do script. É uma questão de preferência pessoal e de escalabilidade do projeto.
-
-Esse não ficou claro vejam esse video que me ajudou:
+#
+#### E se não ficou claro, vejam este vídeo que me ajudou muito:
 
 [Link do video](https://youtu.be/150-dpYG1pg?si=SA3IyE02axg91sZ_)
 
