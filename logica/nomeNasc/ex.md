@@ -3,10 +3,32 @@
 A partir dessas informações, o sistema mostrará o nome do usuário e a idade que completou, ou completará, no ano atual (2022).
 
 Caso o usuário não digite um número ou apareça um inválido no campo do ano, o sistema informará o erro e continuará perguntando até que um valor correto seja preenchido.
+## Codigo completo:
+```python
+def calcularIdade():
+    while True:
+        try:
+            nome = input("Digite seu nome: ")
+            ano = int(input("Digite o ano de nascimento (entre 1922 e 2021): "))
 
+            if 1922 <= ano <= 2021:
+                idade = 2022 - ano
+                return nome, idade
+            else:
+                print(f"{nome}, por favor, digite um ano de nascimento entre 1922 e 2021.")
+        except ValueError:
+            print(f"{nome}, você digitou um valor inválido para o ano de nsacimento. Por favor, insira um número.")
+
+def main():
+    nome, idade = calcularIdade()
+    print(f"{nome}, sua idade é {idade} anos.")
+
+if __name__ == "__main__":
+    main()
+```
 
 ## Passo a passo
-Criei uma função na qual incluí um loop infinito usando `while`.
+#### Criei uma função na qual incluí um loop infinito usando `while`.
 
 ```python
 def calcularIdade():
@@ -22,7 +44,7 @@ def calcularIdade():
 Dentro desse loop, coloquei meu código dentro de um bloco `try`. O código para quando uma condição if é atendida. Além disso, adicionei um bloco try para tentar tratar qualquer erro que possa ocorrer. 
 
 ##
-Se o código cair no bloco `else`, isso significa que ocorreu um erro relacionado a números que não estão no intervalo de 1922 a 2021. 
+#### Se o código cair no bloco `else`, isso significa que ocorreu um erro relacionado a números que não estão no intervalo de 1922 a 2021. 
 ```python
       else:
                 print(f"{nome}, por favor, digite um ano de nascimento entre 1922 e 2021.")
