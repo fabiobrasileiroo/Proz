@@ -30,6 +30,6 @@ print(produtos)         # Imprime a lista de produtos inseridos pelo usuário
 print("\nAnos de nascimento:")
 print(anos_nascimento)  # Imprime a lista de anos de nascimento inseridos pelo usuário
 ```
-[Codigo Colab]()
+[Codigo Colab](https://colab.research.google.com/drive/1O30AsHGyAjAx1KTmnHkzKIez_7OZFHGH?usp=sharing)
 
-[Codigo fonte]()
+[Codigo fonte](https://github.com/fabiobrasileiroo/Proz/blob/main/logica/arrayE/01.py)
