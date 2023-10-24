@@ -1,0 +1,169 @@
+[Link do site](https://proz-flax.vercel.app/html/desafio3html/index.html)
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidade de Recife</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: #2b2b2b;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        header ul{
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        header ul li {
+            display: inline;
+            padding: 10px;
+        }
+        header ul li a {
+            border: 1px solid white;
+            padding: 2px;
+            border-radius: 4px;
+            background-color: black;
+        }
+        .hover:hover{
+            background-color: rgb(0, 0, 0, 0.5) ;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .card {
+        border: 1px solid black;
+        padding: 16px;
+        border-radius: 8px;
+        background: #f0f0f0;
+        flex: 1;
+        transition: all ease-in-out 150ms;
+        text-align: center;
+        margin-right: 20px; 
+        margin-bottom: 10px;
+        }
+
+        .card:last-child {
+            margin-right: 0; 
+        }
+
+        .card:hover {
+            box-shadow: 4px 4px 4px black;
+            transform: translate(-2px, -2px);
+        }
+
+        .card > h2 {
+            border-left: 8px solid rgb(38, 134, 186);
+            padding-left: 16px;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 16px;
+        }
+        main p {
+            width: 50%;
+            padding: 10px;
+            margin: 0 auto;
+            font-size: large;
+        }
+        main {
+            min-height: calc(100vh - 50px);
+            padding: 20px;
+        }
+        .butao {
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: black ;
+        }
+        .butao:hover {
+            background-color: #2b2b2b;
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: #2b2b2b;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        footer span {
+            font-size: large;
+            color: white;
+        }
+        footer ul li{
+            display: inline;
+            margin-right: 15px;
+            border-bottom: 2px solid  white;
+        }
+        footer ul li a:hover{
+            color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cidade de Recife</h1>
+        <nav>
+            <ul>
+            <li><a class="hover" href="./../desafio3html/index.html">Pontos</a></li>
+            <li><a class="hover" href="./../desafio2html/index.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+             <h2>Ta você conhecer um pouco</h2>
+            <h3>Mas quer conhecer <strong>Parque de Esculturas de Francisco Brennand?</strong></h3>
+            <h4>Se sim venhar conhecer</h4>
+            <div class="card">
+                <h2>Parque de Esculturas de Francisco Brennand</h2>
+                <img src="https://www.cnnbrasil.com.br/viagemegastronomia/wp-content/uploads/sites/5/2023/06/lugares-em-recife-parque-de-esculturas.jpg?w=1024" alt="marco zero">
+                <p>O Parque de Esculturas de Francisco Brennand é um dos lugares turísticos em Recife que também chama atenção: um conjunto de obras do artista plástico pernambucano Francisco Brennand, instalado em um recife artificial na orla do Marco Zero.
+                O parque tem como destaque a Coluna de Cristal, uma escultura de 32 metros de altura que simboliza o marco dos 500 anos do descobrimento do Brasil.
+                O parque pode ser acessado por meio de um passeio de catamarã pelo rio Capibaribe ou de carro, pelo bairro de Brasília Teimosa.
+                </p> 
+            </div>
+            <div class="card">
+                <h2>Paço do Frevo</h2>
+               <img src="https://www.cnnbrasil.com.br/viagemegastronomia/wp-content/uploads/sites/5/2023/06/onde-passear-em-recife-paco-do-frevo.jpg?w=1024" alt="marco zero">
+                <p>O Paço do Frevo é um museu dedicado ao ritmo musical e dança que surgiu em Pernambuco há mais de 100 anos.
+                A construção é mais recente e fica localizada no bairro do Recife, também conhecido como Recife Antigo.
+                </p> 
+            </div>
+        </article>
+        <br>
+        <div>
+            <h1><a class="butao" href="./../desafio2html/index.html">Saiba mais</a></h1>
+        </div>
+        <br>
+        <br>
+    </main>
+    <footer>
+        <span>
+            Feito por Fábio Brasileiro
+        </span>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/fabiobrasileiroo" target="_blank">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/fabiobrasileiro/" target="_blank">Linkedin</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+```
