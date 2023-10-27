@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+  color: blue;
+}
+/* Links internos, começando com "#" */
+a[href^="#"] {
+  background-color: gold;
+}
+/* Links com "example" em qualquer lugar da URL */
+a[href*="example"] {
+  background-color: silver;
+}
+/* Links com "insensitive" em qualquer lugar da URL,
+   independentemente da capitalização */
+a[href*="insensitive" i] {
+  color: cyan;
+}
+/* Links com final ".org" */
+a[href$=".org"] {
+  color: red;
+}
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#internal">Internal link</a></li>
+	
+        <li><a href="http://example.com">Example link</a></li>
+	
+        <li><a href="#InSensitive">Insensitive internal link</a></li>
+	
+        <li><a href="http://example.org">Example org link</a></li>
+	
+    </ul>
+</body>
+</html>
