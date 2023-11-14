@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .top {
+            color: rgb(111, 111, 239);
+        }
+        #submit {
+            background-color: rgb(111, 111, 239);
+            color: #fff;
+            border: rgb(111, 111, 239);
+            border-radius: 5px;
+            padding: 4px 10px ;
+        }
+        h1 {
+            border-bottom: 1px   solid black;
+            padding: 10px;
+            width:300px; 
+        }
+        img {
+            width: 100px;
+        }
+        footer {
+            background-color: rgb(111, 111, 239);
+        }
+        .page-content {
+            height: 100vh;
+            display: grid;
+        }
+        @media screen and (min-width: 1024px) {
+            .page-content {
+                gap: 5rem 0rem;
+                display: grid;
+                grid-template-areas:
+                ". . . . ."
+                ". title title login ."
+                ". title title login ."
+                ". title title login ."
+                ". . . . ."
+                "footer footer footer footer footer"
+                ;
+            }
+        }
+        main {
+            grid-area: title;
+        }
+        aside {
+            grid-area: login;
+        }
+        footer {
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-content">
+        <main>
+            <h1>
+                <p>Seja Bem-vindo</p>
+                <p class="top">ao Top Tech</p>
+            </h1>
+        </main>
+        <aside>
+            <img src="microchip-solid (1).svg" alt="">
+            <form action="">
+                <div class="email">
+                    <label for="email">Seu email</label>
+                    <input type="email" id="email" name="email" required placeholder="ex: Fabio(a)@gmail.com">
+                </div>
+                <div class="senha">
+                    <label for="senha">Sua senha</label>
+                    <input type="password" id="senha" name="senha" required placeholder="ex: 1234">
+                </div>
+                <div>
+                    <input type="submit" id="submit" value="Entra na plataforma">
+                </div>
+            </form>
+        </aside>
+        <footer>
+            <ul>
+                <li><a href="#">Certificados</a></li>
+                <li><a href="#">Termos legais</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
