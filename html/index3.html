@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Logo</h1>
+            <ul>
+                <li>home</li>
+                <li>sobre</li>
+                <li></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about-me">
+            <figure>
+                <img src="https://avatars.githubusercontent.com/u/99563281?s=400&u=741d55a5e534f678e13b75faa9f260d4f9f13512&v=4" alt="">
+                <figcaption>Foto de perfil do GitHub - Fabio</figcaption>
+            </figure>
+        </section>
+        <section id="aluno">
+            <h2>Tabela de aluno</h2>
+                <table border="10">
+                    <thead>
+                        <tr>
+                            <th>Toma</th>
+                            <th>E-mail</th>
+                            <th>Matricula</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Devs</td>
+                            <td>fabio@gmail.com</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>toninho</td>
+                            <td>toninho@gmail.com</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+        <section id="financeiro">
+            <h2>Tabela de financas</h2>
+
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th colspan="2">Data</th>
+                        <th>Tipo</th>
+                        <th>Descricao</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">12/11/2023</td>
+                        <td>Despesas</td>
+                        <td>Almoco</td>
+                        <td>R$ 35,00</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Receita</td>
+                        <td>Salario</td>
+                        <td>R$ 3.768.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <hr>
+        <section id="form">
+            <form action="" method="get">
+                <div>
+                    <label for="texto">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Informe o seu nome" >
+                </div>
+                <div>
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <div>
+                    <select name="select" id="select">
+                        <option value="">Selecione uma das opcoes..</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="qualquer">Input</label>
+                    <input type="submit" id="qualquer" name="qualquer">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #companies-table {
+        }
+        [data-company="GCO"] {
+            background-color: aqua;
+        }
+        @media screen and (min-width: 1000px) {
+
+        }
+        h1 {
+            opacity: 0;
+        }
+        [data-button="products"] {
+            background: steelblue;
+            color: #fff;
+            border: none;
+            font-size: 1rem;
+            padding: 0.6rem 2.4rem;
+            cursor: pointer;
+            margin: auto;
+            text-decoration: none;
+            display: flex;
+            width: 175px;
+            transform: .2s ease-in-out, background-color 1s ease-in-out;
+        }
+        [data-button="products"]:hover {
+            background-color: rgb(45, 94, 94);
+            transform: scale(1.1);
+        }
+        [data-button] {
+            margin-top: 2rem ;
+            animation: pulse 2s infinite;
+            animation-fill-mode: forwards;
+            animation-direction: alternate;
+            transform: scale(1);
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.35);
+                opacity: 1;
+            }
+
+            100% {
+                transform: scale(1.35);
+                opacity: .6;
+            }
+        }
+        .spinner-container {
+            display: flex;
+            justify-content: center;
+        }
+        img {
+            width: 25px;
+            margin-top: 4rem;
+            animation: load 2s infinite;
+        }
+        @keyframes load {
+            0% {
+                transform: rotateZ(0deg);
+            }
+            100% {
+                transform: rotateZ(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg"></div>
+    <main>
+        <h1>Welcome to the net foundation</h1>
+        <div class="spinner-container"><img src="spinner-solid.svg" alt=""></div>
+        
+        <a data-button="products" href="link-invalido">Conheca nossos produtos</a>
+        <h2>Tabela</h2>
+        <table  border="1" id="companies-table">
+            <tr>
+                <th>Empresa</th>
+                <th>Contato</th>
+                <th>Pais</th>
+            </tr>
+            <tr>
+                <tr data-company="GCO">
+                    <td>Global CO</td>
+                    <td>Julia Lagos</td>
+                    <td>Chile</td>
+                </tr>
+            </tr>
+            <tr data-company="CCL"> 
+                <td>Centro comercial Laguna</td>
+                <td>Jennifer Rios</td>
+                <td>Brasil</td>
+            
+            </tr>
+            <tr data-company="CEC">
+                <td>CE & C</td>
+                <td>Roberto Carlos</td>
+                <td>Brasil</td>
+            </tr>
+            <tr data-company="TT">
+                <td>Top Tech</td>
+                <td>Joao Cardoso</td>
+                <td>Portugal</td>
+            </tr>
+
+        </table>
+        <a data-button="team" href="link-invalido">Conheca nossos produtos</a>
+    </main>
+</body>
+</html>
