@@ -1,3 +1,20 @@
+[Site]()
+## Html
+``` HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="index.js"></script>
+</head>
+<body>
+</body>
+</html>
+```
+## Codigo js
+```js
 // Use addEventListener para cada coisa ser carregar 
 // em cascata do primerio ao ultimo
 document.addEventListener("DOMContentLoaded", function() {
@@ -55,3 +72,4 @@ document.addEventListener("DOMContentLoaded", function() {
     // Adiciona a div com a classe "card" ao corpo do documento
     document.body.appendChild(divCard);
 });
+```
