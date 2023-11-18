@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.3"
   }
 }
