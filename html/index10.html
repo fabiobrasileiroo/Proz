@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /*body {
+            font-size: 62.5%;
+        }
+        */
+        header {
+            background-color: darkgray;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            gap: 1rem  ;
+            margin-top: .75rem;
+        }
+        nav ul li a {
+            text-decoration: none;
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            width: 50vw;
+            margin: auto;
+            background-color: #FF7;
+
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            gap: 10px;
+        }
+        .div {
+            background-color:#FF7A00;
+            width: 250px ;
+            height: 225px;
+            border-radius: 10px;
+            padding: 10px;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+        <h1>logo</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Unidades</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="caxona">
+
+        <section>
+            <h1>Proz</h1>
+            <h2>Como fazemos</h2>
+            <section class="container">
+                <div class="div">
+                    <h3>Conexao do estudante com o trabalho</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquid deserunt animi esse. Optio tenetur corrupti quidem asperiores veritatis cupiditate saepe mollitia, eaque perspiciatis quisquam ullam alias eos quia impedit?</p>
+                </div>
+                <div class="div">
+                    <h3>Qualidade do curso</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur debitis minima obcaecati id explicabo expedita! Ducimus, exercitationem cum sed voluptatum sequi quod ex! Voluptate fuga veritatis, ducimus quibusdam rem explicabo?</p>
+                </div>
+            </section>
+        </section>
+    </div>
+    </body>
+</html>
