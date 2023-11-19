@@ -7,3 +7,7 @@ botaoTempo.addEventListener("click", (e)=> {
     console.log(tempoNormal)
     tempo.innerText = tempoNormal + "s" 
 })
+
+document.addEventListener("click", function(e){
+    
+})
