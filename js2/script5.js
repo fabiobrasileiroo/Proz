@@ -1,4 +1,4 @@
-let elementoClicado = document.getElementById("elemento-clicado")
+let elementoClicado = document.getElementById("subtitulo")
 let botaoTempo = document.getElementById("botao-tempo")
 let tempo = document.getElementById("tempo")
 
@@ -8,6 +8,8 @@ botaoTempo.addEventListener("click", (e)=> {
     tempo.innerText = tempoNormal + "s" 
 })
 
+
 document.addEventListener("click", function(e){
-    
+    console.log(e.target)    
+    elementoClicado.innerText = "Voce clicou no:" + e.target.id
 })
