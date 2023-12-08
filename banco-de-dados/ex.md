@@ -6,4 +6,4 @@
 (ALUNO ∩ PROFESSOR)
 (ALUNO - PROFESSOR)
 ```
-obs: nao sei se estar certo, fiquei um pouco com duvida primeira vez que vejo esse assunto... se algume poder me dizer se estar certo ou errei algo agradeco
+Obs.: Não sei se estou certo, fiquei um pouco com dúvida. É a primeira vez que vejo esse assunto. Se alguém puder me dizer se estou certo ou errei algo, agradeço.
