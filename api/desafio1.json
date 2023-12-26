@@ -1,0 +1,6 @@
+{
+    "id": 7864,
+    "produto": "forno",
+    "marcas": ["Electrolux", "Brastemp", "Oster"],
+    "idLojas": [45, 67, 129, 228]
+}

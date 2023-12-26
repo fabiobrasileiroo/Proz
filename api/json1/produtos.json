@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "nome":"Fabio",
+        "marca":"Nike",
+        "categoria":"NaoEstarAVenda",
+        "preco": 100000,
+        "qntEmEstoque": 1,
+        "prontaEntregar": false
+    },
+    {
+        "id":2,
+        "nome":"Air Jordan 1 Retro High OG Chicago",
+        "marca":"Nike",
+        "categoria":"Tenis",
+        "preco": 1000,
+        "qntEmEstoque": 10,
+        "prontaEntregar": true
+    },
+    {
+        "id":3,
+        "nome":"Hábitos Atômicos(James Clear)",
+        "marca":"ALTA LIFE",
+        "categoria":"livro",
+        "preco": 41.72,
+        "qntEmEstoque": 100,
+        "prontaEntregar": true
+    }
+]
