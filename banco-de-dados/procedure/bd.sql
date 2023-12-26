@@ -31,3 +31,5 @@ END;
 $$ LANGUAGE plpgsql;
 
 SELECT * FROM LevantamentoDiario();
+-- Posso usar os dois tipos para invocar 
+CALL LevantamentoDiario();
