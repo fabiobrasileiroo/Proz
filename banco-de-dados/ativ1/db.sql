@@ -6,3 +6,5 @@ begin
   return total;
 end;
 $$ language plpgsql;
+
+select somar_clientes_cadastrados(current_date);
