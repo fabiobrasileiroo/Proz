@@ -1,6 +1,4 @@
-Certamente! Aqui está o texto formatado em Markdown:
 
-```markdown
 **Resumo: Pilares da Segurança de Dados para um Novo Banco de Dados**
 
 Ao desenvolver um novo banco de dados para armazenar informações críticas de uma empresa de vendas, é crucial incorporar os seguintes pilares da segurança de dados, baseados em conceitos encontrados em livros especializados na área:
@@ -37,4 +35,3 @@ Ao desenvolver um novo banco de dados para armazenar informações críticas de 
   - Assegure-se de estar em conformidade com regulamentações de privacidade e segurança de dados específicas do setor e região da empresa.
 
 Ao seguir esses princípios, o novo banco de dados estará melhor preparado para enfrentar desafios de segurança, protegendo os dados cruciais da empresa contra ameaças internas e externas.
-```
