@@ -1,5 +1,9 @@
 
+<span style="color: #34f8db;">
+
 **Resumo: Pilares da Segurança de Dados para um Novo Banco de Dados**
+
+</span>
 
 Ao desenvolver um novo banco de dados para armazenar informações críticas de uma empresa de vendas, é crucial incorporar os seguintes pilares da segurança de dados, baseados em conceitos encontrados em livros especializados na área:
 
