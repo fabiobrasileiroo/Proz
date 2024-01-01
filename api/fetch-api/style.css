@@ -1,0 +1,47 @@
+body {
+    background-color: #58378c;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2 {
+    background-color: #6C3C8D;
+    width: 400px;
+    padding: 8px;
+    border-radius: 8px;
+    color: #FEFEFE;
+}
+
+#postagens {
+    margin-top: 2rem;
+}
+button {
+    background-color: #EF7D19;
+    color: #FEFEFE;
+    border: none;
+    padding: 8px;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: hsl(28, 87%,40%);
+}
+.helper-text {
+    font-size: .8rem;
+}
+input {
+    padding: 8px;
+}
+textarea {
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec2 > form {
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+}
+.sec2 > form > button {
+    margin-top: .25rem;
+    width: 410px;
+}
