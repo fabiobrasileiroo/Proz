@@ -45,3 +45,24 @@ textarea {
     margin-top: .25rem;
     width: 410px;
 }
+
+.usuario {
+    display: flex;
+    align-items: center;
+    background-color: #6C3C8D;
+    width: 400px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.usuario img {
+    width: 100px;
+}
+
+.postagem {
+    background-color: #6C3C8D;
+    width: 390px;
+    border-radius: 8px ;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+}
