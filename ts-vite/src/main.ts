@@ -138,28 +138,140 @@ console.log(calcularPagamento(100,2, 0.1))
 // Definição de um tipo personalizado, com tipo genérico
 // Parecido com uma função function (Lista:any[])
 //Lista: number[]
-type Lista<Elemento> = Elemento[]
+// type Lista<Elemento> = Elemento[]
 
-//Uso do tipo personalizado
-let listaNumeros: Lista<number> = [1,2,3]
+// //Uso do tipo personalizado
+// let listaNumeros: Lista<number> = [1,2,3]
 
-let listaNomes: Lista<string> = ['João', 'Maria']
+// let listaNomes: Lista<string> = ['João', 'Maria']
 
-let listaUsuarios: Lista<Usuario> = [
-  { nome: 'João', idade: 42},
-  { nome: 'Maria', idade: 44}
-]
+// let listaUsuarios: Lista<Usuario> = [
+//   { nome: 'João', idade: 42},
+//   { nome: 'Maria', idade: 44}
+// ]
+
+// type Aluno = {
+//   id_aluno: number,
+//   nome: string
+// }
+
+// let listaAlunos: Lista<Aluno> = []
+
+// let alunoNovo: Aluno = {
+//   id_aluno: 5,
+//   nome: 'Luis'
+// }
+
+// listaAlunos.push(alunoNovo)
+
+//Genéricos com Arrays
+type Lista<TipoGenerico> = TipoGenerico[]
+
+let listaNumerosPer: number[] = []// mesma coisa
+let listaNumeros: Lista<Object> = []
+listaNumeros.push([{nome: 'fabio'}])
+// listaNumeros.push(1)
+// listaNumeros.push(2)
+console.log(listaNumeros)
 
 type Aluno = {
   id_aluno: number,
   nome: string
 }
-
 let listaAlunos: Lista<Aluno> = []
-
 let alunoNovo: Aluno = {
   id_aluno: 5,
-  nome: 'Luis'
+  nome: 'Bia'
+}
+listaAlunos.push(alunoNovo)
+console.log(listaAlunos)
+
+//Objetos genericos
+type ResumoLista<T> = {
+  total: number,
+  primeiroElemento: T,
+  lista: T[] 
 }
 
-listaAlunos.push(alunoNovo)
+type Musica = {
+  nome: string,
+  artista: string
+}
+let musicas: Musica[] = [
+  { nome: 'Coisa n 6', artista: 'Moacir Santos'},
+  { nome: 'Loro', artista: 'Egberto gis'},
+  { nome: 'Africadeus', artista: 'Naná Vasconcelos'}
+]
+const resumoMusicas: ResumoLista<Musica> = {
+  total: musicas.length,
+  primeiroElemento: musicas[0],
+  lista: musicas
+}
+
+// outro exemplos
+type Filme = {
+  titulo: string,
+  genero: 'animação' | 'ação' | 'comêdia' | 'românce'
+}
+
+let listaFilmes: Filme[] = []
+listaFilmes.push({
+  titulo: 'Pulp Fiction',
+  genero: 'ação'
+})
+console.log(listaFilmes)
+
+type ResumoLista1<T> = {
+  total: number,
+  ultimo: T,
+  lista: T[]
+}
+
+let filmeMaisRecente: ResumoLista1<Filme> = {
+  total: listaFilmes.length,
+  ultimo: listaFilmes[listaFilmes.length -1],
+  lista: listaFilmes
+}
+
+function ultimoDaLista<T>(lista: T[]): T {
+  return lista[lista.length - 1]
+}
+const listaNumerosT = [15,23,52,21]
+console.log(
+  ultimoDaLista(listaNumerosT)
+)
+const listaLinguagens = ['Html','css','js']
+console.log(ultimoDaLista(listaLinguagens))
+
+const ultimoDaLista02 = function <T>(lista: T[]): T {
+  return lista[lista.length -1]
+}
+
+const ultimoDaLista03 = <T>(lista: T[]): T => lista[lista.length -1]
+
+// Genéricos com Funções
+function primeiroElemento<T>(lista: T[]): T {
+  return lista[0]
+}
+
+let listaNumeros01 = [1,3,4]
+let resultado = primeiroElemento(listaNumeros01)
+console.log(resultado)
+
+type Produto = {
+  nome: string,
+  preco: number
+}
+
+let listaProdutos: Produto[] = [
+  { nome: 'leite', preco: 7.21},
+  { nome: 'bolacha', preco: 5.99}
+]
+
+let resultado1 = primeiroElemento(listaProdutos)
+
+console.log(resultado1)
+
+const inputNome = document.querySelector<HTMLInputElement>('#nome')
+
+inputNome?.value
